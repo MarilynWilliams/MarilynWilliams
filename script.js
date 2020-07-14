@@ -1,4 +1,4 @@
-var header = document.getElementById("heading");
+var header = document.getElementById("head");
 var sticky = heading.offsetTop;
 
 function myFunction() {
