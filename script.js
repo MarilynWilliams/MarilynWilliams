@@ -1,12 +1,10 @@
-window.onscroll = function() {myFunction()};
-
 var header = document.getElementById("heading");
-var sticky = header.offsetTop;
+var sticky = heading.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+    heading.classList.add("sticky");
   } else {
-    header.classList.remove("sticky");
+    heading.classList.remove("sticky");
   }
 }
