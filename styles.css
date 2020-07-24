@@ -11,8 +11,11 @@ div.top-container {
 	margin-top: -8px;
 }
 
-div#nav-bar {
+div.navbar {
 	text-align: center;
+}
+
+div#nav-bar {
 	overflow: hidden;
 	background-color: #031926;
 	margin-left: -8px;
