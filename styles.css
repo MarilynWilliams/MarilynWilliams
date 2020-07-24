@@ -6,7 +6,9 @@ body {
 div.top-container {
 	background-color: #9DBEBB;
 	padding: 30px;
-	margin: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
 }
 
 div#nav-bar {
