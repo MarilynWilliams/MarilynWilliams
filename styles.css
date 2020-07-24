@@ -6,45 +6,48 @@ body {
 div.top-container {
 	background-color: #9DBEBB;
 	padding: 30px;
+	margin: -8px;
 }
 
 div#nav-bar {
-  overflow: hidden;
-  background-color: #031926;
+	overflow: hidden;
+	background-color: #031926;
+	margin-left: -8px;
+    margin-right: -8px;
 }
 
 div#nav-bar a {
-  float: left;
-  display: block;
-  color: #468189;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	display: block;
+	color: #468189;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 div#nav-bar a:hover {
-  background-color: #031925;
-  color: #9DBEBB;
+	background-color: #031925;
+	color: #9DBEBB;
 }
 
 div#nav-bar a.active {
-  background-color: #031925;
-  color: #9DBEBB;
+	background-color: #031925;
+	color: #9DBEBB;
 }
 
 div.content {
-  padding: 16px;
+	padding: 16px;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .sticky + div.content {
-  padding-top: 60px;
+	padding-top: 60px;
 }
 
 div.footer {
