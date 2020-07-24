@@ -12,6 +12,7 @@ div.top-container {
 }
 
 div#nav-bar {
+	text-align: center;
 	overflow: hidden;
 	background-color: #031926;
 	margin-left: -8px;
