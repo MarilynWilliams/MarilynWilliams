@@ -19,7 +19,7 @@ div.footer {
 }
 
 /* overrides bootstrap css */
-#sticky-header {
+div#sticky-header {
 	background-color:grey;
 	color:black;
 	height:200px;
