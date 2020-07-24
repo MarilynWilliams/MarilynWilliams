@@ -17,3 +17,13 @@ div.footer {
 .affix + .container-fluid {
 	padding-top: 70px;
 }
+
+
+.navbar navbar-inverse {
+	background-color: #28112B;
+	color: #453643;
+}
+
+.active {
+	color: #5E5D5C;
+}
