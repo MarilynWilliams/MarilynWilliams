@@ -16,6 +16,8 @@ div#nav-bar {
 	background-color: #031926;
 	margin-left: -8px;
     margin-right: -8px;
+	position: sticky;
+	top: 0;
 }
 
 div#nav-bar a {
@@ -40,16 +42,6 @@ div#nav-bar a.active {
 
 div.content {
 	padding: 16px;
-}
-
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-.sticky + div.content {
-	padding-top: 60px;
 }
 
 div.footer {
