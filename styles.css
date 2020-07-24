@@ -1,8 +1,51 @@
 body {
-	background-color: #F4E9CD;
+	background: #F4E9CD;
 	color: #031926;
 }
 
+div.top-container {
+	background-color: #9DBEBB;
+	padding: 30px;
+}
+
+div#nav-bar {
+  overflow: hidden;
+  background-color: #031926;
+}
+
+div#nav-bar a {
+  float: left;
+  display: block;
+  color: #468189;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+div#nav-bar a:hover {
+  background-color: #031925;
+  color: #9DBEBB;
+}
+
+div#nav-bar a.active {
+  background-color: #031925;
+  color: #9DBEBB;
+}
+
+div.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + div.content {
+  padding-top: 60px;
+}
 
 div.footer {
 	position: fixed;
@@ -12,21 +55,4 @@ div.footer {
 	background-color: grey;
 	color: black;
 	text-align: center;
-}
-
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-  }
-
-.affix + .container-fluid {
-	padding-top: 70px;
-}
-
-/* overrides bootstrap css */
-div#sticky-header {
-	background-color: #9DBEBB;
-	color: black;
-	height: 200px;
 }
