@@ -18,3 +18,9 @@ div.footer {
 	padding-top: 70px;
 }
 
+/* overrides bootstrap css */
+#sticky-header {
+	background-color:grey;
+	color:black;
+	height:200px;
+}
