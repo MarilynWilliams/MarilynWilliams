@@ -1,3 +1,9 @@
+body {
+	background-color: #F4E9CD;
+	color: #031926;
+}
+
+
 div.footer {
 	position: fixed;
 	left: 0;
@@ -20,12 +26,7 @@ div.footer {
 
 /* overrides bootstrap css */
 div#sticky-header {
-	background-color: grey;
+	background-color: #9DBEBB;
 	color: black;
 	height: 200px;
-}
-
-div#override-navbar {
-	background-color: #031926;
-	color: #468189;
 }
