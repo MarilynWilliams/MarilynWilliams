@@ -48,7 +48,7 @@ div#nav-bar a.active {
 
 /* side bar */
 div#sidenav {
-  height: 75%;
+  height: 100%;
   width: 160px;
   position: fixed;
   top: 0;
