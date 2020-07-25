@@ -51,7 +51,7 @@ div#sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
-  top: 0;
+  top: 50;
   left: 0;
   background-color: #031926;
   overflow-x: hidden;
