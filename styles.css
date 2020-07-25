@@ -75,6 +75,7 @@ div#sidenav a:hover {
 /* main body content */
 div.content {
 	padding: 16px;
+	margin-left: 160px;
 }
 
 /* footer */
