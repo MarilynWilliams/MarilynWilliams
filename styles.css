@@ -48,10 +48,9 @@ div#nav-bar a.active {
 
 /* side bar */
 div#sidenav {
-  height: 100%;
+  height: 75%;
   width: 160px;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: #031926;
