@@ -37,12 +37,10 @@ div#nav-bar a {
 }
 
 div#nav-bar a:hover {
-	background-color: #031925;
 	color: #9DBEBB;
 }
 
 div#nav-bar a.active {
-	background-color: #031925;
 	color: #9DBEBB;
 }
 
