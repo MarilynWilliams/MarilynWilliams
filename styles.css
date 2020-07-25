@@ -80,7 +80,7 @@ div.content {
 }
 
 /* resume page download button */
-button#btn-dwnld {
+#btn-dwnld {
 	display: inline-block;
 	padding: 15px 25px;
 	font-size: 20px;
@@ -95,11 +95,11 @@ button#btn-dwnld {
 	box-shadow: 0 3px #999;
 }
 
-button#btn-dwnld:hover {
+#btn-dwnld:hover {
 	background-color: #9DBEBB;
 	}
 
-button#btn-dwnld:active {
+#btn-dwnld:active {
 	background-color: #77ACA2;
 	box-shadow: 0 3px #666;
 	transform: translateY(4px);
