@@ -47,7 +47,7 @@ div#nav-bar a.active {
 
 
 /* side bar */
-div#side-nav {
+div#sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
@@ -59,7 +59,7 @@ div#side-nav {
   padding-top: 20px;
 }
 
-div#side-nav a {
+div#sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -67,7 +67,7 @@ div#side-nav a {
   display: block;
 }
 
-div#side-nav a:hover {
+div#sidenav a:hover {
   color: #9DBEBB;
 }
 
