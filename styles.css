@@ -11,6 +11,7 @@ div.top-container {
 	margin-top: -8px;
 }
 
+/* top navigation bar */
 div.navbar {
 	text-align: center;
 }
@@ -44,10 +45,38 @@ div#nav-bar a.active {
 	color: #9DBEBB;
 }
 
+
+/* side bar */
+div#side-nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #031926;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+div#side-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #468189;
+  display: block;
+}
+
+div#side-nav a:hover {
+  color: #9DBEBB;
+}
+
+/* main body content */
 div.content {
 	padding: 16px;
 }
 
+/* footer */
 div.footer {
 	position: fixed;
 	left: 0;
