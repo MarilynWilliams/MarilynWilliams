@@ -9,6 +9,7 @@ div.top-container {
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-top: -8px;
+	z-index: 2;
 }
 
 /* top navigation bar */
@@ -23,6 +24,7 @@ div#nav-bar {
     margin-right: -8px;
 	position: sticky;
 	top: 0;
+	z-index: 2;
 }
 
 div#nav-bar a {
@@ -51,11 +53,13 @@ div#sidenav {
   height: 100%;
   width: 160px;
   position: fixed;
-  top: 25;
+  top: 0;
   left: 0;
+  margin-left: -8px;
   background-color: #031926;
   overflow-x: hidden;
   padding-top: 20px;
+  z-index: 1;
 }
 
 div#sidenav a {
